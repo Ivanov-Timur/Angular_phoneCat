@@ -1,0 +1,12 @@
+<input type="text" ng-model = 'find'>
+<select ng-model = 'sort'>
+	<option value="name">Alphabetical</option>
+	<option value="age">Newest</option>
+</select>
+<div class="phone" ng-repeat = 'phone in phones | filter:find | orderBy:sort'>
+	<img ng-src="{{phone.imageUrl}}" class="img__big">
+	<h3>{{phone.name}}</h3>
+	<p>{{phone.snippet}}</p>
+
+	<a href="#phone/{{phone.id}}" class="view">View details</a>
+</div>

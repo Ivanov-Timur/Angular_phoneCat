@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak { 
+  display: none; 
+} 
+
+input,
+select{
+	font-size: 14px;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+.view{
+	font-size: 14px;
+	padding: 4px;
+	border-radius: 4px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.name{
+	text-align: center;
+	display: block;
+}
+
+.imgs{
+	text-align: center;
+}
+
+.img__big{
+	display: block;
+	margin: 0 auto;
+}
+
+.img__sm li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.img__sm img{
+	width: 190px;
+}
+
+.desc{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.specs li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 230px;
+	margin-bottom: 20px;
+}
+
+.specs span{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 30px;
+
+}
+
+.specs dt{
+	font-weight: bold;
+}
